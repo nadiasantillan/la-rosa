@@ -1,0 +1,9 @@
+<div class="book" *ngIf="book">
+    <img class="book-image" alt="portada" src="./assets/{{book.imagePath}}">
+    <h2>{{book.title}}</h2>
+    <p>{{book.author}}</p>
+    <p class="book-description">{{book.description}}</p>
+    <p class="book-price">{{book.price}}</p>
+    <p class="book-delivery-price">(adicional envío a Luján {{book.deliveryPrice}})</p>
+    <a target="_blank" href="https://wa.me/{{phoneNumber}}?text=Quiero comprar {{book.title}}">Comprar</a>
+</div>
