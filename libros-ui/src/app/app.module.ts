@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { BookComponent } from './book/book.component';
 import { BooksComponent } from './books/books.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +17,8 @@ import { BooksComponent } from './books/books.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
